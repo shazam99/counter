@@ -5,6 +5,8 @@ function App() {
 
   const [count,setCount] = useState(0);
 
+  console.log("branch dev1")
+
   return (
     <div className="App">
       <h1>Counter App</h1>
