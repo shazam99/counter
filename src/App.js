@@ -3,12 +3,7 @@ import './App.css';
 
 function App() {
 
-  console.log("Changes in dev1");
-
   const [count,setCount] = useState(0);
-
-
-  console.log("Changes on master");
 
   return (
     <div className="App">
