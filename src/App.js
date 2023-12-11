@@ -5,6 +5,9 @@ function App() {
 
   const [count,setCount] = useState(0);
 
+
+  console.log("Changes on master");
+
   return (
     <div className="App">
       <h1>Counter App</h1>
